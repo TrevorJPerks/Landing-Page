@@ -1,13 +1,15 @@
-
-
-body {
+body,
+a {
   font-family: 'Roboto', sans-serif;
-  margin: 0px; padding: 0px
+  margin: 0px;
+  padding: 0px;
+  color: #E5E7EB;
 }
 
 
 /* list and link styling */
-ul, li {
+ul,
+li {
   display: flex;
   gap: 22px;
   list-style: none;
@@ -18,27 +20,83 @@ ul, li {
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #d6d7d8;
+
 }
 
+
+/* Header style */
 h1 {
-  margin: 0px; padding: 0px
+  margin: 0px;
+  padding: 0px
 }
 
-.header {
+.header-container {
+  position: sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #1f2937;
-  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 1);
   padding-top: 20px;
   padding-bottom: 16px;
+
+
+
 }
 
 .header-logo {
   font-size: 24px;
   font-weight: 900;
-  color: #f9faf8;
+  color: #F9FAF8;
 }
 
 
+/* First Sections style */
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 80px;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.section1-info {
+  /* border: 1px solid rgb(34, 178, 82);  */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  padding: 50px;
+}
+
+
+.section1-hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.section1-image {
+  /* border: 1px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  padding: 100px;
+  background-color: #767676;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+.signup-button {
+  background-color: #3882f6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #F9FAF8;
+  border: 1px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 10px;
+}
