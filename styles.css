@@ -29,11 +29,10 @@ a {
 
 h1 {
   margin: 0px;
-  padding: 0px
+  padding: 0px;
 }
 
 .header-container {
-  /* border: 1px solid rgb(34, 178, 82);  */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -43,8 +42,7 @@ h1 {
   padding: 20px;
 }
 
-.header-logo {
-  /* border: 1px solid rgb(34, 178, 82);  */
+.header-logo a {
   font-size: 24px;
   font-weight: 900;
   color: #F9FAF8;
@@ -64,7 +62,9 @@ h1 {
 }
 
 .section1-info {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   width: 400px;
   padding: 50px;
@@ -77,14 +77,11 @@ h1 {
   color: #F9FAF8;
 }
 
-.section1-image {
+.section1-image img {
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 50px;
-  padding: 100px;
+  max-width: 400px;
   background-color: #767676;
   box-shadow: 10px 10px 30px rgb(0, 0, 0);
 }
@@ -94,8 +91,80 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #F9FAF8;
-  border: 1px solid white;
-  padding: 15px 32px;
+  border: none;
+  padding: 7px 35px;
   text-align: center;
   border-radius: 10px;
 }
+
+/* Second Section style */
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-hero {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 40px;
+}
+
+.section2-images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px;
+  max-width: 968px;
+}
+
+.img-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+  margin: 16px;
+  color: #a1a2a3;
+}
+
+.img-block img {
+  border-radius: 10%;
+  border: 4px solid #306ed3;
+  min-height: 200px;
+}
+
+
+
+
+/* Quote Section Style*/
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #E5E7EB;
+  text-align: center;
+}
+
+.quote p {
+  flex-direction: column;  
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  width: 800px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+}
+
