@@ -32,6 +32,7 @@ h1 {
   padding: 0px;
 }
 
+
 .header-container {
   display: flex;
   justify-content: space-around;
@@ -50,7 +51,7 @@ h1 {
 }
 
 
-/* First Section style */
+/* Section  1 style  */
 
 .section1 {
   display: flex;
@@ -97,7 +98,7 @@ h1 {
   border-radius: 10px;
 }
 
-/* Second Section style */
+/* Section 2 style */
 
 .section2 {
   display: flex;
@@ -140,7 +141,7 @@ h1 {
 
 
 
-/* Quote Section Style*/
+/* Section 3 Style */
 
 .section3 {
   display: flex;
@@ -166,6 +167,45 @@ h1 {
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
+}
+
+/* Section 4 style */
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-container {
+  display: flex;
+  justify-items: space-between;
+  background-color: #3882f6;
+  margin: 100px;
+  padding: 50px 100px;
+  border-radius: 10px;
+  gap: 200px;
+}
+
+.section4-info {
+  align-items: flex-start;
+}
+
+.section4-info p {
+  margin: 0px;
+  padding: 0px;
+  color: #cfd0d1;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  
+}
+
+.button-container .signup-button {
+  border: 1px solid white;
 }
 
 /* Footer style */
