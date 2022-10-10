@@ -1,5 +1,5 @@
-body,
-a {
+body {
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -25,6 +25,7 @@ li {
 a {
   text-decoration: none;
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* Header style */
@@ -99,7 +100,9 @@ h1 {
 
 /* Section 2 style */
 
-.section2 {
+/* Section 2 & Section 4 shared */
+.section2,
+.section4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,7 +160,7 @@ h1 {
   width: 800px;
 }
 
-.section3 .quote-author {
+.section3 span {
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
@@ -166,11 +169,6 @@ h1 {
 }
 
 /* Section 4 style */
-.section4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .section4-container {
   display: flex;
@@ -189,7 +187,7 @@ h1 {
 .section4-info p {
   margin: 0px;
   padding: 0px;
-  color: #cfd0d1;
+  color: #dededf;
 }
 
 .button-container {
@@ -199,6 +197,7 @@ h1 {
   width: 200px;
 }
 
+/* Style reused button */
 .button-container .signup-button {
   border: 1px solid white;
 }
